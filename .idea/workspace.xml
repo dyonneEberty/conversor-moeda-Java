@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="040b90e3-a608-4e06-842f-20d0f18d2bc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conversor-moeda-dyonne.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/desafio/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/desafio/connection/api/ConsutarApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/desafio/connection/file/ConversionHistoryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/desafio/exception/InvalidJsonException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/desafio/model/ConversionHistoryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/desafio/model/CurrencyConversionRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/desafio/model/CurrencyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/desafio/service/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/desafio/service/JsonConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conversor-moeda-dyonne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/conversor-moeda-dyonne.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/desafio/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/desafio/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/desafio/connection/api/ExchangerateApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/desafio/connection/api/ExchangerateApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2fy4aS1x913ZPA9zSsWFVDo7h7d" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,7 +46,11 @@
     "Application.Principal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/dyonne/Downloads/jar/gson-2.10.1.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,5 +63,31 @@
       <updated>1714760047969</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
