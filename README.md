@@ -37,3 +37,7 @@ Abaixo podemos ver a utilização do conversor. Nesse exemplo convertemos BRL pa
 
 ## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Badge
+Indica que terminei o desafio.
+![Badge-Conversor](https://github.com/user-attachments/assets/ca300f3e-f5f2-4667-8aa7-4693a1ff88e2)
